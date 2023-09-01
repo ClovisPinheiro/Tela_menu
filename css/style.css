@@ -1,0 +1,112 @@
+.cabecalho{
+    text-align: center;
+    background: rgb(90, 84, 84);
+    width: 100%;
+    height: 2000%;
+    padding: 50;
+    margin: auto;
+}
+
+h1{
+    margin: auto;
+}
+
+.titulo{
+    font-size: 100px;
+}
+
+/*Menu */
+#menu{
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    left: 0;
+    top: 10;
+    height: 100%;
+}
+
+#menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu ul li{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: #333;
+}
+
+#menu ul li:hover{
+    background-color: #ddd;
+}
+
+#menu ul .sub-menu{
+    display: none;
+    padding-left: 20px;
+}
+
+#menu ul .sub-menu li{
+    padding: 5px;
+    border-bottom: none;
+}
+
+#menu ul .sub-menu li a{
+    color: #666;
+}
+
+#menu ul li:hover .submenu{
+    display: block;
+}
+
+#conteudo{
+    margin-left: 200px;
+    padding: 20px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.contraine{
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    margin-left: 20px;
+}
+
+footer{
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+ul.menu-horizontal{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #6161aa;
+    overflow: hidden;
+}
+
+ul.menu-horizontal li{
+    float: left;
+}
+
+ul.menu-horizontal li a:hover{
+    background-color: #333;
+}
+
+ul.menu-horizontal li a{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #c2b9b9;
+}
